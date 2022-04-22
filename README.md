@@ -30,10 +30,10 @@ this custom training data has some of the typical Softskills like  "positive att
 ## Inference
 The training script takes a sample sentence and runs inference on it to check whether the NER model is trained properly and it can perform softskill NER classification. Model is able to classify unseen softskills such as "composed" and "Professional". 
 
-NER =  composed
-NER =  confident
-NER =  professional
-NER =  leadership
+- NER =  composed
+- NER =  confident
+- NER =  professional
+- NER =  leadership
 
 ## Citations
 
