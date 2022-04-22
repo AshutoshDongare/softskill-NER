@@ -23,10 +23,17 @@ sample dataset format is given below.
  ```
 this custom training data has some of the typical Softskills like  "positive attitude", "leadership", "customer focus" etc.
 
-
 ### Below is the metrics for this fine tuned models
 ![Metrics](https://user-images.githubusercontent.com/18417621/164762441-2c3103c3-7dfd-4386-add5-b0315ba336d2.png)
 
+
+## Inference
+The training script takes a sample sentence and runs inference on it to check whether the NER model is trained properly and it can perform softskill NER classification. Model is able to classify unseen softskills such as "composed" and "Professional". 
+
+NER =  composed
+NER =  confident
+NER =  professional
+NER =  leadership
 
 ## Citations
 
