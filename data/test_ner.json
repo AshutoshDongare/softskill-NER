@@ -1,0 +1,20 @@
+{"id":"101", "ner_tags" :[0,0,0,0,0,0,0,1,0,0,0,0,0], "tokens":["a","good","project","manager","is","able","to","prioritize","from","the","list","of","tasks"]}
+{"id":"102", "ner_tags":[0,0,0,1,1,1,0,0], "tokens":["we","need","to","deal","with","uncertaintiy","of","life"]}
+{"id":"103", "ner_tags":[0,0,0,0,0,0,0,1,1,0], "tokens":["Hiring","managers","and","job","recruiters","value","strong","analytical","skills","."]}
+{"id":"104", "ner_tags":[0,0,0,1,0,1,0,0,0,0,0], "tokens":["Employees","can","demonstrate","commitment","and","flexibility","in","a","number","of","ways"]}
+{"id":"105", "ner_tags":[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0], "tokens":["The","ability","to"," ","collaborate"," ","with","news","publishers","to","build","long","-","term","sustainable","business","models","is","key","."]}
+{"id":"106", "ner_tags":[0,0,1,1,0,0,0,0,0,0,0], "tokens":["you","use","analytical","skills","when","detecting","patterns",",","brainstorming",",","observing"]}
+{"id":"107", "ner_tags":[0,0,0,0,0,1,1,0,0,0], "tokens":["Why","is","it","important","to","be","decisive","at","work","?"]}
+{"id":"108", "ner_tags":[0,0,0,0,0,1,1,0,0,0,0,0], "tokens":["CEOs","are","hoping","a","stronger","customer","focus","will","help","with","customer","delight"]}
+{"id":"109", "ner_tags":[0,1,0,0,0,0,0,0,0,0], "tokens":["Workplace","flexibility","is","a","strategy","of","responding","to","changing","circumstances"]}
+{"id":"110", "ner_tags":[0,0,0,0,0,1,1,0,1,0,0,0,0,0,0], "tokens":["Teams","in","organizations","need","strong","team","players","to","perform","well","and","reach","their","goals","."]}
+{"id":"111", "ner_tags":[0,0,0,0,1,0,0,0,0,0,0], "tokens":["He","explained","how","to","prioritize","the","plan","and","get","things","done"]}
+{"id":"112", "ner_tags":[0,0,0,0,0,0,0,0,0,0,0,1,1,0], "tokens":["I","work","for","a","very","large","company","whose","main","strategy","is","customer","focus","."]}
+{"id":"113", "ner_tags":[0,0,0,1,1,1,0,0,0,1], "tokens":["When","we","are","open","to","change",",","we","build","confidence"]}
+{"id":"114", "ner_tags":[0,0,0,0,0,0,1,1,1,0], "tokens":["Received","this","promotion","due","to","my","ability","to","learn","quickly"]}
+{"id":"115", "ner_tags":[0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0], "tokens":["People","are","more","open","to","change","when","they","are","laughting",",","than","when","they","are","angry"]}
+{"id":"116", "ner_tags":[0,1,0,0,0,0,0,0], "tokens":["Their","dedication","and","hard","work","finally","paid","off"]}
+{"id":"117", "ner_tags":[1,0,0,0,0,0,0,0,1,0], "tokens":["leadership","experts","believe","there","are","different","types","of","leadership","styles"]}
+{"id":"118", "ner_tags":[0,0,0,1,0,0,0,0,0,0,0,0,0,0], "tokens":["Under","the"," ","leadership"," ","of","China","Originalism",",","Chinese","designers","completed","the","task"]}
+{"id":"119", "ner_tags":[1,1,0,0,0,1,1,0,0,0,0,0,0,0], "tokens":["Quick","learners","usually","have","the","analytical","skills","to","quickly","process","and","understand","new","information"]}
+ 
