@@ -9,7 +9,10 @@ This repo shows how to fine tune custom NER model for softskills using 🤗 Hugg
 
 We will Fine-tune the model for softskill NER using 🤗 Transformers [Trainer](https://huggingface.co/docs/transformers/main/en/main_classes/trainer#transformers.Trainer). This is the simplest way to fine-tune a 🤗 Transformer model. You can however choose to do this using pytorch and tensorflow way which gives you flexibility to write your own custom training loops if you require specific ways to train.
 
-The custom dataset has around 119 sentences tokenized and annotated the way required by huggingface model for fine-tuning. This trained model still provides decent performance with such low number of training samples. It is also resilient enough to identify the softskills which are not in the training data. 
+The custom dataset has around 119 sentences tokenized and annotated the way required by huggingface model for fine-tuning. 
+(please drop me a line if you want to know how to prepare tokenized and annotated dataset for NER training)
+
+This trained model still provides decent performance with such low number of training samples. It is also resilient enough to identify the softskills which are not in the training data. 
 
 For production use cases it is recommended to compile few hundreds to thousands of training samples.
 
