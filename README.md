@@ -23,7 +23,7 @@ sample dataset format is given below.
  ```
 this custom training data has some of the typical Softskills like  "positive attitude", "leadership", "customer focus" etc.
 
-### Below is the metrics for this fine tuned models
+### Below is the metrics for this fine-tuning run
 ![Metrics](https://user-images.githubusercontent.com/18417621/164762441-2c3103c3-7dfd-4386-add5-b0315ba336d2.png)
 
 
