@@ -5,9 +5,11 @@
 
 ![header](https://user-images.githubusercontent.com/18417621/164710324-54f54dbc-797b-4419-823e-3706d60a011f.png)
 
-This repo shows how to fine tune custom NER model for softskills using 🤗 Huggingface pretrained model [distilbert](thttps://huggingface.co/distilbert-base-uncased). 
+This repo shows how to fine tune custom NER model to classify softskills using 🤗 Huggingface pretrained model [distilbert](thttps://huggingface.co/distilbert-base-uncased). The custom training data has some of the typical Softskills like  "positive attitude", "leadership", "customer focus" etc.
 
-We will Fine-tune the model for softskill NER using 🤗 Transformers [Trainer](https://huggingface.co/docs/transformers/main/en/main_classes/trainer#transformers.Trainer). This is the simplest way to fine-tune a 🤗 Transformer model. You can however choose to do this using pytorch and tensorflow way which gives you flexibility to write your own custom training loops if you require specific ways to train.
+We will Fine-tune the model for softskill NER using 🤗 Transformers [Trainer](https://huggingface.co/docs/transformers/main/en/main_classes/trainer#transformers.Trainer). 
+
+This is the simplest way to fine-tune a 🤗 Transformer model. You can however choose to do this using pytorch and tensorflow way which gives you flexibility to write your own custom training loops if you require specific ways to train.
 
 The custom dataset has around 119 sentences tokenized and annotated the way required by huggingface model for fine-tuning. 
 (please drop me a line if you want to know how to prepare tokenized and annotated dataset for NER training)
@@ -25,7 +27,7 @@ Sample dataset format for token classification task is shown below.
  "tokens":["a","good","project","manager","is","able","to","prioritize","from","the","list","of","tasks"]
  }
  ```
-this custom training data has some of the typical Softskills like  "positive attitude", "leadership", "customer focus" etc. You may want to take a look at ```/data/train_ner.json``` to check which softskills have been annotated.
+You may want to take a look at ```/data/train_ner.json``` to check which all softskills have been annotated in the training data.
 
 ### Below is the metrics for this fine-tuning run
 ![Metrics](https://user-images.githubusercontent.com/18417621/164762441-2c3103c3-7dfd-4386-add5-b0315ba336d2.png)
