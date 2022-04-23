@@ -41,6 +41,20 @@ The training script takes a sample sentence and runs inference on it to check wh
 - NER =  professional
 - NER =  leadership
 
+### load saved model for inference
+you may also load saved model in the same way you would use any pretrained 🤗 Transformer model using pipeline.
+
+Below is part of the code indicating how you can load saved model and run inference on it. Note that ```.from_pretrained()``` loads from the directory containing custom trained model.
+
+```
+model = AutoModelForTokenClassification.from_pretrained("./skillner_model/")
+tokenizer = AutoTokenizer.from_pretrained("./skillner_model/")
+
+NER_INFERENCE = pipeline("ner", model=model.to(device), tokenizer=tokenizer)
+
+ner_results = NER_INFERENCE("your sentence for softskill NER inference")
+```
+
 ## Citations
 
 This repo is based on [Huggingface](https://huggingface.co/), compiled for Custom NER fine-tuning
