@@ -19,12 +19,13 @@ For production use cases it is recommended to compile few hundreds to thousands 
 Sample dataset format for token classification task is shown below.
 
 ```
-{"id":"101", 
+{
+ "id":"101", 
  "ner_tags" :[0,0,0,0,0,0,0,1,0,0,0,0,0], 
  "tokens":["a","good","project","manager","is","able","to","prioritize","from","the","list","of","tasks"]
  }
  ```
-this custom training data has some of the typical Softskills like  "positive attitude", "leadership", "customer focus" etc.
+this custom training data has some of the typical Softskills like  "positive attitude", "leadership", "customer focus" etc. You may want to take a look at ```/data/train_ner.json``` to check which softskills have been annotated.
 
 ### Below is the metrics for this fine-tuning run
 ![Metrics](https://user-images.githubusercontent.com/18417621/164762441-2c3103c3-7dfd-4386-add5-b0315ba336d2.png)
@@ -41,3 +42,10 @@ The training script takes a sample sentence and runs inference on it to check wh
 ## Citations
 
 This repo is based on [Huggingface](https://huggingface.co/), compiled for Custom NER fine-tuning
+
+
+# Future enhancements
+- Compile and annotate more training data for NER. This can be achieved using Web or Wiki dump Scraping for the relevant data. 
+- Implement cunking like B-SOFTSKILL/I-SOFTSKILL to recognize beginning of / is inside softskill entity.
+ 
+
