@@ -62,6 +62,6 @@ This repo is based on [Huggingface](https://huggingface.co/), compiled for Custo
 
 # Future enhancements
 - Compile and annotate more training data for NER. This can be achieved using Web or Wiki dump Scraping for the relevant data. 
-- Implement cunking like B-SOFTSKILL/I-SOFTSKILL to recognize beginning of / is inside softskill entity.
+- Implement chunking like B-SOFTSKILL/I-SOFTSKILL to recognize beginning of / is inside softskill entity.
  
 
